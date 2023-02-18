@@ -6,6 +6,6 @@ The dataset used in this project is a publicly available dataset of sensor data 
 
 #CNN-SVR Model
 The CNN and SVR models were trained using the sensor data from the dataset. The CNN model was used to extract features from the sensor data and the SVR model was used to predict the remaining useful life of the engine based on these features. The models were built using Python and the Keras and scikit-learn libraries.
-![Picture description](images/CNN_SVR.jpg)
+                                                                 ![CNN-SVR Model](images/CNN_SVR.jpg)
 
 #
