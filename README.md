@@ -33,7 +33,10 @@ To deploy the app using Docker Compose on an EC2 instance, follow these steps:
 6. Open a web browser and go to http://<ec2_instance_ip> to use the app.
 7. To stop the app and remove the Docker containers, run the following command:docker-compose down  This will stop and remove the Docker containers created by the docker-compose up command.
 
+# Demo
 
+[![Alt text](https://img.youtube.com/vi/05X7luF_MQc/0.jpg)](https://www.youtube.com/watch?v=05X7luF_MQc)
+https://www.youtube.com/watch?v=05X7luF_MQc
 
 
 
