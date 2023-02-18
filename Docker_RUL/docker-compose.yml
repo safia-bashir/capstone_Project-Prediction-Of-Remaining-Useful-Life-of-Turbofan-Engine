@@ -1,0 +1,28 @@
+# docker-compose.yml
+
+services:
+  backend:
+    build: backend
+    image: rul-backend:latest     
+    ports:
+      - "8000:8000"
+      
+    volumes:
+      - ./backend:/app/backend
+    networks:
+      - project_network
+
+  frontend:
+    build: frontend
+    image: rul-frontend:latest
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./Frontend:/app/frontend
+    depends_on: 
+    - backend
+    networks:
+      - project_network
+
+networks:
+  project_network:
