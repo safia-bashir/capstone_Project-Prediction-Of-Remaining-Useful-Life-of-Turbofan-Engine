@@ -35,6 +35,8 @@ To deploy the app using Docker Compose on an EC2 instance, follow these steps:
 # Demo
 
 [![Alt text](https://img.youtube.com/vi/05X7luF_MQc/0.jpg)]
+(https://www.youtube.com/watch?v=05X7luF_MQc)
+
 
 
 
