@@ -38,3 +38,4 @@ To deploy the app using Docker Compose on an EC2 instance, follow these steps:
 
 
 
+
